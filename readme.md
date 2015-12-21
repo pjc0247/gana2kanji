@@ -35,6 +35,7 @@ Guess the common case
 /* 夏色サプライズ */
 var msg = (await G2K.Convert("なついろさぷらいず")).CommonCase();
 ```
+__G2K__ provides the `CommonCase` method. This is an extension method that concatenates each segment's first candidate. Remember that the result may not correct in all cases. It is a just guessing the most common case.
 
 __Google CGI API for Japanese Input__
 * [한국어](google_cgi.md)
