@@ -1,11 +1,14 @@
 ﻿Google CGI API for Japanese Input
 ====
 
+이 문서는 번역된 내용입니다. [원본](https://www.google.co.jp/ime/cgiapi.html)
+<br><br>
+
 __Google CGI API for Japanese Input__은 인터넷상에서 일본어 변환을 가능하도록 해주는 CGI 서비스입니다.
 
 __리퀘스트__
 
-http://www.google.com/transliterate 에 HTTP GET 메소드로 아래의 파라미터를 지정해서 요청해 주십시시오.
+http://www.google.com/transliterate 에 HTTP GET 메소드로 아래의 파라미터를 지정하여 요청해 주십시오.
 ```
 langpair=ja-Hira|ja
 text=（変換したいひらがな列）
@@ -22,6 +25,7 @@ __리스폰스__
 JSON 타입의 배열이 반환됩니다. 각 요소는 어절로 나뉘어져 있으며, 요소의 첫번째에는 원래 입력된 문자가, 두번째부터는 변환 후보들이 따라옵니다.
 
 __샘플 리스폰스__
+```
 「ここではきものをぬぐ」と指定した場合の変換結果例。
 [
   ["ここでは",
@@ -34,6 +38,7 @@ __샘플 리스폰스__
     ["脱ぐ", "ぬぐ", "ヌグ"],
   ],
 ]
+```
 
 구분 위치를 직접 지정하고 싶을 때
 
