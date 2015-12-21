@@ -1,5 +1,6 @@
 ﻿gana2kanji
 ====
+convert hiragana into a complete sentence. 
 
 ```c#
 using Gana2Kanji;
