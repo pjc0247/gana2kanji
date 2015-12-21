@@ -37,6 +37,7 @@ var msg = (await G2K.Convert("なついろさぷらいず")).CommonCase();
 ```
 __G2K__ provides the `CommonCase` method. This is an extension method that concatenates each segment's first candidate. Remember that the result may not correct in all cases. It is a just guessing the most common case.
 
-__Google CGI API for Japanese Input__
+Google CGI API for Japanese Input
+----
 * [한국어](google_cgi.md)
 * [日本語](https://www.google.co.jp/ime/cgiapi.html)
