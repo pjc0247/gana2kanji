@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gana2Kanji", "gana2kanji\Gana2Kanji.csproj", "{81D19F10-DD34-4245-A33C-2B57DB969B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{DB4360B8-32FC-412B-83DB-A616475E045F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81D19F10-DD34-4245-A33C-2B57DB969B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D19F10-DD34-4245-A33C-2B57DB969B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D19F10-DD34-4245-A33C-2B57DB969B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D19F10-DD34-4245-A33C-2B57DB969B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4360B8-32FC-412B-83DB-A616475E045F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4360B8-32FC-412B-83DB-A616475E045F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4360B8-32FC-412B-83DB-A616475E045F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4360B8-32FC-412B-83DB-A616475E045F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
